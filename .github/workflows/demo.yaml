@@ -2,7 +2,7 @@ name: Testing Out Github Actions
 run-name: I am ${{ github.actor }}
 on: [push]
 jobs:
-  Let's see:
+  See:
     runs-on: ubuntu-latest
     steps:
       - name: Echo Something
